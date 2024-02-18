@@ -1,0 +1,150 @@
+* {
+ 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; /* Add to reset default margin */
+    padding: 0; /* Add to reset default padding */
+}
+
+.bg-image {
+    background-image: url(image1.jpg); /* Change to your desired background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    mix-blend-mode: screen;
+    filter:contrast(1);
+    font-size: 2em;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.logo span {
+    color: #ffffff;
+}
+
+.navigation {
+    margin-left: -300px;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px 9px #ffd700;
+}
+
+.head {
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.head h1,
+p {
+    text-align: center;
+    color: #ffd700;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+label {
+    font-size: 150%;
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+input,
+textarea {
+    padding: 10px;
+    margin: 5px 20px 20px 20px;
+    outline: none;
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid transparent;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    outline: transparent;
+    background:transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background: rgb(238, 255, 0);
+}
+
+@media screen and (max-width: 417px) {
+    form {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,95 @@
+* {
+    background-image: url(image1.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    mix-blend-mode: screen;
+    filter:contrast(1);
+    font-size: 2em;
+    color: #333;
+    cursor: pointer;
+}
+
+.navigation {
+    margin-left: -300px;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #ffd700;
+}
+
+.education {
+    margin: 20px;
+    margin-top: 300px;
+    text-align: center;
+    position: absolute;
+    left: 250px;
+}
+
+.education h2 {
+    font-size: 24px;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+.year {
+    margin-bottom: 20px;
+}
+
+.year h3 {
+    font-size: 20px;
+    color: #ffd700;
+    margin-bottom: 5px;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.details h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.details p {
+    color: #fff;
+    margin-bottom: 5px;
+}
+.year1{
+    position: relative;
+    left: 650px;
+    top: -120px;
+}
